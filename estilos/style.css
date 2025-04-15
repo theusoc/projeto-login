@@ -38,12 +38,15 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
     display: block;
     background: #5f2c82 url(../imagens/predio.jpg) no-repeat;
-    background-position: left bottom;
+    background-position: right center;
     background-size: cover;
     height: 200px;
 }
